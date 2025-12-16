@@ -12,3 +12,4 @@ export const addTask = async (title) =>
 
 export const deleteTask = async (id) =>
   fetch(`${API_URL}/${id}`, { method: "DELETE" });
+
